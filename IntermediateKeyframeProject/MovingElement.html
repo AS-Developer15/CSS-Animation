@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovingElement</title>
+  </head>
+  <body>
+    <style>
+      /* CSS Keyframe */
+      @keyframes rightMovement {
+        from {
+          left: 20px;
+          background-color: white;
+        }
+        to {
+          left: 550px;
+        }
+      }
+
+      /* CSS Elements */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: papayawhip;
+      }
+      .containerDiv {
+        margin: 30vh 0 0 0;
+        background-color: black;
+        padding: 10vh 0 10vh 0;
+        width: 100%;
+      }
+      .shapeElementA {
+        animation: rightMovement 10s infinite;
+        position: relative;
+        background-color: papayawhip;
+        width: 200px;
+        height: 200px;
+        left: 550px;
+      }
+      .shapeElementA > h1,
+      .shapeElementA > p,
+      .shapeElementA > button {
+        margin-bottom: 10px;
+      }
+    </style>
+    <div class="containerDiv">
+      <div class="shapeElementA">
+        <h1>John Doe</h1>
+        <p>I am a FullStack Developer.</p>
+        <button>Email Me</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+
+<!-- Code to change the size of a Circle. -->
+ <!-- This idea can be use to create Deep Breathing Simulator -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CircleRadiusIncrement</title>
+</head>
+<body>
+    <style>
+        /* CSS Keyframes */
+
+@keyframes shapeChanger{
+    from{
+        width: 100px;
+        height: 100px;
+    }
+    to{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* CSS Elements */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: papayawhip;
+}
+.mainDiv{
+    padding: 10vh  10vw 10vh 10vw;
+    border: solid 1px solid black;
+}
+.shapeElement{
+    border-radius: 360px;
+    background-color: black;
+    animation: shapeChanger infinite 4s alternate-reverse;
+}
+    </style>
+    <div class="mainDiv">
+        <center>
+
+            <div class="shapeElement">
+                
+            </div>
+        </center>
+    </div>
+</body>
+</html>

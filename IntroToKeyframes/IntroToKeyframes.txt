@@ -1,0 +1,7 @@
+Introduction to KeyFrames
+
+Keyframes are essential in CSS and Web Designing. They help us to manage animations by creating slight changes in the Properties (Transistional Change from one frame to another). They are helpful in creating Animation in a easy rather than solely relying on JavaScript for Animations.
+
+*Without CSS Keyframes we cannot create CSS Animations. They are essential for even a small scale animation.
+
+"IntroToKeyframe.html" contains an beginners friendly introduction to this issue.

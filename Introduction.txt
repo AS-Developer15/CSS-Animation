@@ -1,0 +1,10 @@
+Keyframe Properties that you should understand by heart.
+@keyframes
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation-fill-mode
+animation

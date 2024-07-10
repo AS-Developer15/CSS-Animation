@@ -1,0 +1,78 @@
+<!-- KeyFrame in CSS -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KeyFrames in CSS</title>
+  </head>
+  <body>
+    <style>
+      /* KeyFrames are displayed for short duration and after their completion there property are not shown in the element instead they posses their own properties.*/
+      @keyframes transistionalFrame {
+        from {
+          background-color: rgb(255, 118, 118);
+          color: white;
+        }
+        to {
+          background-color: rgb(255, 255, 32);
+          color: black;
+        }
+      }
+      @keyframes btnTransistion {
+        from {
+          background-color: black;
+          color: white;
+        }
+        to {
+          background-color: white;
+          color: black;
+        }
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: papayawhip;
+      }
+
+      .mainDiv {
+        animation-name: transistionalFrame;
+        animation-duration: 10s;
+        /* Property to display after animation. */
+        margin: 20vh;
+        padding: 10vh;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 32);
+        color: black;
+      }
+      .mainDiv>h1, .mainDiv>p {
+         margin-bottom: 20px ;
+      }
+      a {
+        animation-name: btnTransistion;
+        animation-duration: 10s;
+        /* Property to display after animation. */
+        text-decoration: none;
+        padding: 20px;
+        margin-top: 5vh;
+        background-color: white;
+        color: black;
+      }
+    </style>
+
+    <div class="mainDiv">
+      <h1>Hello World!</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, facilis
+        nobis nostrum omnis, in explicabo saepe deleniti at quasi et aliquam,
+        voluptas quam alias velit consectetur libero iste. Vel, omnis?
+      </p>
+      <a href="https://google.com">Open </a>
+    </div>
+  </body>
+</html>
