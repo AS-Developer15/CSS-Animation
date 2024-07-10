@@ -8,8 +8,8 @@ The folder structure of the repository :
 
 
  List of Projects that you can try
- > Meditation App
- > A GUI Interface by Moving Elements
- > Brownian Motion of a Element
+ >> Meditation App
+ >> A GUI Interface by Moving Elements
+ >> Brownian Motion of a Element
 
 ~Happy Coding 💻 !!
